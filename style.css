@@ -16,5 +16,8 @@ h1 {
 .song_text .chorus {
   font-style: italic;
 }
+.song_text p {
+  font-size: 24px;
+}
 
 /*# sourceMappingURL=style.css.map */
