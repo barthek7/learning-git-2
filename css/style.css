@@ -1,7 +1,7 @@
-$font : 'Lobster Two', cursive;
 body * {
   box-sizing: border-box;
-  font-family: $font;
+  font-family: "Lobster Two", cursive;
+  background-color: silver;
 }
 
 h1 {
@@ -13,10 +13,14 @@ h1 {
 .song_text {
   text-align: center;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-  .chorus {
-    font-style: italic;
-  }
 }
+
+.song_text .chorus {
+  font-style: italic;
+}
+
 p {
   font-size: 28px;
 }
+
+/*# sourceMappingURL=style.css.map */
